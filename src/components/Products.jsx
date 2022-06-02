@@ -24,8 +24,11 @@ const Products = () => {
         <Outlet/>
          <div>{products.map((p)=>(
            <div key={p.id}>
-           <Link to={`/products/${p}`}>{p.name}</Link> 
-           {p.price}
+             {/* <p>Product:{p.name}</p>
+             <p>Price:{p.price}</p> */}
+          <p>Product Name:</p> <Link to={`/products/${p.id}`}>{p.name}</Link> 
+           
+          
            </div>
            
            

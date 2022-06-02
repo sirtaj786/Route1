@@ -15,8 +15,8 @@ const Product = () => {
   return (
     <div>Product ID:{id}
     
-    <div>{product.name}</div>
-    <div>{product.price}</div>
+    <div>Product:{product.name }</div>
+    <div>Price:{product.price}</div>
     
     </div>
     
